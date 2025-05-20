@@ -7,8 +7,8 @@ describe('App', () =>{
         const num1 = 10;
         const num2 = 20;
         //Act
-        const result = num1+num2+5;
+        const result = num1+num2;
         //Assert
-        expect(result).toBe(35);
+        expect(result).toBe(30);
     });
 });
